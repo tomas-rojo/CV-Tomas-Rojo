@@ -219,7 +219,11 @@ img {
 
 .contact__info li span {
   display: flex;
-  font-size: var(--h3-font-size); }
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-3); }
+
+.contact__email {
+  width: 120%; }
 
 /*========== FOOTER ==========*/
 .footer__container {
@@ -235,7 +239,7 @@ img {
 .footer__description {
   display: block;
   font-size: var(--normal-font-size);
-  margin: 0.25rem 0 var(--mb-3); }
+  margin: 0.25rem 0 var(--mb-4); }
 
 .footer__social {
   font-size: 2rem;
@@ -252,6 +256,9 @@ img {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
   margin: 2rem 0; }
+
+.footer__email {
+  width: 50%; }
 
 /*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px) {
