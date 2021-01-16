@@ -34,7 +34,7 @@
   --mb-3: 1.5rem;
   --mb-4: 2rem;
   --mb-5: 2.5rem;
-  --mb-6: 5rem;
+  --mb-6: 8rem;
 
   /*========== z index ==========*/
   --z-tooltip: 10;
@@ -105,7 +105,7 @@ img{
 }
 
 .container{
-  padding-top: var(--mb-6);
+  padding-top: var(--mb-3);
   padding-bottom: var(--mb-6);
 }
 
@@ -213,9 +213,6 @@ img{
   color: var(--first-color);
 }
 
-.img__main{
-  width: 35%;
-}
 
 .button{
   display: inline-block;
@@ -243,6 +240,9 @@ img{
 
 
 /*========== WORK EXPERIENCE ==========*/
+.four-seasons{
+  width: 75%;
+}
 
 .faena{
   width: 50%;
@@ -313,7 +313,7 @@ img{
 .footer__copy{
   text-align: center;
   font-size: var(--small-font-size);
-  color: var(--text-color-light);
+  color: var(--title-color);
   margin: 2rem 0;
 }
 
@@ -343,7 +343,7 @@ img{
   }
 
   .section{
-    padding-top: 8rem;
+    padding-top: 7rem;
   }
 
   .nav{
@@ -362,7 +362,7 @@ img{
 
   .change-theme{
     position: initial;
-    margin-left: var(--mb-2);
+    margin-left: var(--mb-3);
   }
 
 }
