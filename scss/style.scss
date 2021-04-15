@@ -238,6 +238,26 @@ img{
   color: var(--title-color);
 }
 
+/*========== MY PROJECTS ==========*/
+
+#link__button{
+  color: var(--container-color);
+  text-decoration: none;
+}
+
+.card{
+  box-shadow: 0 5px 15px #A6A6A6;
+  border-radius: 8px;
+  padding: 10px 5px;
+  transition: all 0.6s;
+  text-decoration: none;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+
 
 /*========== WORK EXPERIENCE ==========*/
 .four-seasons{
@@ -374,3 +394,4 @@ img{
   }
 
 }
+
